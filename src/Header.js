@@ -24,7 +24,7 @@ function Header() {
 </Link>
             </div>
             <div className="header_input">
-                <input onChange={e =>setInputSearch(e.target.value)}
+                <input onChange={(e) =>setInputSearch(e.target.value)}
                 type="text" 
                 value={inputSearch}  
                 placeholder="Search"/>
